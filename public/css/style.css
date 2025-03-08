@@ -1,0 +1,31 @@
+/*body {background: green;}*/
+.mont {
+    font-family: "Montserrat", serif;
+}
+
+.nav-item a {
+    width: max-content;
+}
+
+.rounding {
+    border-radius: 20px;
+}
+
+.pressed {
+    transition: box-shadow 0.3s ease-out;
+}
+
+.pressed:active {
+    box-shadow: none !important;
+}
+
+button {
+    all: unset;   /* This removes all inherited and default styles */
+    cursor: pointer; /* Optionally, you can reset the cursor to pointer */
+    background: none; /* Removes any background properties */
+    border: none; /* Removes borders */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margins */
+    color: inherit; /* Text color defaults to the inherited value */
+}
+
