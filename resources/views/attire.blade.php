@@ -3,7 +3,7 @@
 @section('description', 'Our easy-to-follow infographic gives you everything to know to be ready for your child\'s first dance class at S3D!')
 @section('content')
 
-    <x-banner banner="banner-attire.jpg" alt="young ballerinas showing arabesque at barre" position="center" heading="Attire"/>
+    <x-banner banner="banner-attire-2.jpg" alt="young ballerinas showing arabesque at barre" position="center" heading="Attire"/>
 
     <div class="mt-5 container mont">
         <div class="d-flex justify-content-center">

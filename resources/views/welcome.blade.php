@@ -83,7 +83,7 @@
             <div class="row">
                 <div class="col-sm my-2 text-center d-flex align-items-center justify-content-center">
                     <div>
-                        <a href="/preschool-dance-classes-plano"><img src="/images/classes-children-sm.jpg" alt="young jazz dancers having fun" class="img-fluid rounded shadow pressed" style="max-height: 500px; width: auto;"></a>
+                        <a href="/preschool-dance-classes-plano"><img src="/images/classes-children-2.jpg" alt="young jazz dancers having fun" class="img-fluid rounded shadow pressed" style="max-height: 500px; width: auto;"></a>
                         <div class="text-uppercase fw-bold" style="font-size: 1.5em;">CHILDREN'S CLASSES</div>
                         <div>Ages 1-7</div>
 {{--                        <div class="d-flex justify-content-center">--}}
