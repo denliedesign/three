@@ -3,7 +3,7 @@
 @section('content')
 
     {{--    <x-banner banner="banner-hub.jpg" alt="one girl lifted by many" position="50% 20%" heading="Add New Article"/>--}}
-    <x-banner banner="banner-recital-24.jpg" alt="hip hop girls dance together" position="50% 20%" heading="Add New Article"/>
+    <x-banner banner="banner-news.jpg" alt="" position="50% 30%" heading="Add New Article"/>
 
     <div class="container my-5 mont">
         <div class="row">

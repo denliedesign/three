@@ -3,7 +3,7 @@
 {{--@section('description', 'Keep Up To Date With The Latest News From MDU!')--}}
 @section('content')
 
-    <x-banner banner="banner-recital-24.jpg" alt="hip hop girls dance together" position="50% 20%" heading="Newsletter"/>
+    <x-banner banner="banner-news.jpg" alt="" position="50% 30%" heading="Newsletter"/>
 
     <div class="container my-5 mont">
         @can('update', \App\Article::class)

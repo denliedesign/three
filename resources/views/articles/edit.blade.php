@@ -2,7 +2,7 @@
 @section('title', 'Edit Article')
 @section('content')
 
-    <x-banner banner="banner-recital-24.jpg" alt="hip hop girls dance together" position="50% 20%" heading="Edit Article"/>
+    <x-banner banner="banner-news.jpg" alt="" position="50% 30%" heading="Edit Article"/>
 
     <div class="container my-5 mont">
         <form action="{{ route('articles.update', ['article' => $article]) }}" method="POST" enctype="multipart/form-data">

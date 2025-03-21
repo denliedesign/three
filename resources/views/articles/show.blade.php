@@ -3,7 +3,7 @@
 @section('content')
 
 
-    <x-banner banner="banner-recital-24.jpg" alt="hip hop girls dance together" position="50% 20%" heading="{!! $article->articleTitle !!}"/>
+    <x-banner banner="banner-news.jpg" alt="" position="50% 30%" heading="{!! $article->articleTitle !!}"/>
     <div class="text-center mont mt-2 text-muted">{{ $article->newsTitle }}</div>
     <div class="container my-5 mont">
         <div>
