@@ -1,2 +1,3 @@
+Sitemap: https://www.studio3dance.com/sitemap.xml
 User-agent: *
 Disallow:
