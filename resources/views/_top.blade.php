@@ -8,8 +8,8 @@
 {{--        <div style="background: #E11B22;" class="rounding shadow px-3 py-2"><a class="text-white text-decoration-none" href="/">Register Ages 1-7</a></div>--}}
 {{--        <div style="background: #E11B22;" class="rounding shadow px-3 py-2"><a class="text-white text-decoration-none" href="/">Register Ages 7+</a></div>--}}
         <div class="text-center my-1" style="font-size: 1.5em;">
-            <span class="mx-1"><ion-icon name="logo-facebook"></ion-icon></span>
-            <span class="mx-1"><ion-icon name="logo-instagram"></ion-icon></span>
+            <span class="mx-1"><a href="https://www.facebook.com/Studio3Dance" target="_blank" class="text-white"><ion-icon name="logo-facebook"></ion-icon></a></span>
+            <span class="mx-1"><a href="https://www.instagram.com/studiothreedance/" target="_blank" class="text-white"><ion-icon name="logo-instagram"></ion-icon></a></span>
         </div>
     </div>
 </section>
