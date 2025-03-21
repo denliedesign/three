@@ -38,10 +38,10 @@
                         Studio
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Dance Plano</a></li>
-                        <li><a class="dropdown-item" href="#">Dance Richardson</a></li>
-                        <li><a class="dropdown-item" href="#">Dance Frisco</a></li>
-                        <li><a class="dropdown-item" href="#">Dance Allen</a></li>
+                        <li><a class="dropdown-item" href="/dance-plano">Dance Plano</a></li>
+                        <li><a class="dropdown-item" href="/dance-richardson">Dance Richardson</a></li>
+                        <li><a class="dropdown-item" href="/dance-frisco">Dance Frisco</a></li>
+                        <li><a class="dropdown-item" href="/allen-dance">Dance Allen</a></li>
                     </ul>
                 </li>
                 <li class="nav-item mx-2">

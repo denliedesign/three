@@ -10,28 +10,12 @@ Route::get('/', function () { return view('welcome'); });
 Route::get('staff', function () { return view('staff'); });
 Route::get('preschool-dance-classes-plano', function () { return view('preschool-dance-classes-plano'); });
 Route::get('classes', function () { return view('classes'); });
-//Route::get('tuition', function () { return view('tuition'); });
 Route::get('attire', function () { return view('attire'); });
-//Route::get('policies', function () { return view('policies'); });
 Route::get('calendar', function () { return view('calendar'); });
-//Route::get('newsletter', function () { return view('newsletter'); });
 Route::get('snow-queen', function () { return view('snow-queen'); });
 Route::get('christmas-parade', function () { return view('christmas-parade'); });
 Route::get('competition', function () { return view('competition'); });
 Route::get('staff', function () { return view('staff'); });
-
-Route::get('/news/january', function () { return view('/news/january'); });
-Route::get('/news/february', function () { return view('/news/february'); });
-Route::get('/news/march', function () { return view('/news/march'); });
-Route::get('/news/april', function () { return view('/news/april'); });
-Route::get('/news/may', function () { return view('/news/may'); });
-Route::get('/news/june', function () { return view('/news/june'); });
-Route::get('/news/july', function () { return view('/news/july'); });
-Route::get('/news/august', function () { return view('/news/august'); });
-Route::get('/news/september', function () { return view('/news/september'); });
-Route::get('/news/october', function () { return view('/news/october'); });
-Route::get('/news/november', function () { return view('/news/november'); });
-Route::get('/news/december', function () { return view('/news/december'); });
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -57,5 +41,58 @@ Route::get('newsletter', function () {
     $articles = (new App\Http\Controllers\ArticleController)->getArticles(); // assuming getHubs() is a static method in your HubController
     return view('articles.index', ['articles' => $articles]);
 });
+
+/* SEO */
+
+Route::get('/dance-classes-in-plano-tx', function () {
+    return view('/dance-classes-in-plano-tx');
+});
+
+Route::get('/dance-studios-in-plano-tx', function () {
+    return view('/dance-studios-in-plano-tx');
+});
+
+Route::get('/dance-lessons-plano', function () {
+    return view('/dance-lessons-plano');
+});
+
+Route::get('/ballet-plano', function () {
+    return view('/ballet-plano');
+});
+
+Route::get('/dance-allen', function () {
+    return view('/dance-allen');
+});
+
+Route::get('/dance-studios-allen', function () {
+    return view('/dance-studios-allen');
+});
+
+Route::get('/dance-plano', function () {
+    return view('/dance-plano');
+});
+Route::get('/dance-richardson', function () {
+    return view('/dance-richardson');
+});
+Route::get('/dance-frisco', function () {
+    return view('/dance-frisco');
+});
+Route::get('/allen-dance', function () {
+    return view('/allen-dance');
+});
+
+Route::get('/toddler-dance-classes-plano', function () {
+    return view('/toddler-dance-classes-plano');
+});
+
+Route::get('/dance-classes-richardson', function () {
+    return view('/dance-classes-richardson');
+});
+
+Route::get('/tumble-classes-plano', function () {
+    return view('/tumble-classes-plano');
+});
+
+/* END SEO */
 
 require __DIR__.'/auth.php';
