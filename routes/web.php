@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\HubController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ContactController;
@@ -13,7 +14,7 @@ Route::get('classes', function () { return view('classes'); });
 Route::get('attire', function () { return view('attire'); });
 //Route::get('policies', function () { return view('policies'); });
 Route::get('calendar', function () { return view('calendar'); });
-Route::get('newsletter', function () { return view('newsletter'); });
+//Route::get('newsletter', function () { return view('newsletter'); });
 Route::get('snow-queen', function () { return view('snow-queen'); });
 Route::get('christmas-parade', function () { return view('christmas-parade'); });
 Route::get('competition', function () { return view('competition'); });
@@ -45,10 +46,16 @@ Route::middleware('auth')->group(function () {
 Route::post('contact', [ContactController::class, 'sendEmail'])->name('contact.send');
 
 Route::resource('hubs', HubController::class);
+Route::resource('articles', ArticleController::class);
 
 Route::get('recital', function () {
     $hubs = (new App\Http\Controllers\HubController)->getHubs(); // assuming getHubs() is a static method in your HubController
     return view('hubs.index', ['hubs' => $hubs]);
+});
+
+Route::get('newsletter', function () {
+    $articles = (new App\Http\Controllers\ArticleController)->getArticles(); // assuming getHubs() is a static method in your HubController
+    return view('articles.index', ['articles' => $articles]);
 });
 
 require __DIR__.'/auth.php';
