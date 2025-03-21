@@ -17,7 +17,7 @@ class ContactController extends Controller
             'message' => $request->message
         ];
 
-        Mail::to('customdenlie@gmail.com')->send(new ContactMail($details));
+        Mail::to('studiothree.dance@gmail.com')->send(new ContactMail($details));
 
         return redirect('/')->with('message', 'Thanks for your message. We\'ll be in touch.');
     }
