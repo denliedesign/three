@@ -44,7 +44,7 @@ class ContactController extends Controller
             'submitted_at'          => $validated['submitted_at']
         ];
 
-        Mail::to('customdenlie@gmail.com')->send(new ContactMail($details));
+        Mail::to('studiothree.dance@gmail.com')->send(new ContactMail($details));
 
         return redirect('/')->with('message', 'Thanks for your message. We\'ll be in touch.');
     }
