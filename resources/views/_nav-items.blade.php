@@ -27,6 +27,7 @@
         <li><a class="dropdown-item" href="/recital">Recital</a></li>
     </ul>
 </li>
+<li class="nav-item mx-2"><a class="nav-link" href="/summer">Summer</a></li>
 <li class="nav-item mx-2"><a class="nav-link" href="/calendar">Calendar</a></li>
 <li class="nav-item mx-2"><a class="nav-link" href="/newsletter">News</a></li>
 <li class="nav-item mx-2"><a class="nav-link" href="/competition">Teams</a></li>

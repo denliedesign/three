@@ -16,6 +16,7 @@ Route::get('snow-queen', function () { return view('snow-queen'); });
 Route::get('christmas-parade', function () { return view('christmas-parade'); });
 Route::get('competition', function () { return view('competition'); });
 Route::get('staff', function () { return view('staff'); });
+Route::get('summer', function () { return view('summer'); });
 
 Route::get('/dashboard', function () {
     return view('dashboard');

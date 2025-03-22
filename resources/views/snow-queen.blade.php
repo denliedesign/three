@@ -6,7 +6,10 @@
 
     <div class="container mt-5 mont">
         <div class="text-center">
-            Snow Queen 2025 information coming spring of 2025.
+            <strong>Snow Queen Summer Workshop and Audition:</strong> June 24th - 26th
+            <br><strong>2nd audition:</strong>  Saturday, August 9th
+            <br><strong>Snow Queen Performance Dates:</strong>  November 15th & 16th
+{{--            Snow Queen 2025 information coming spring of 2025.--}}
             {{--            We present our winter ballet, Snow Queen every other year.--}}
             {{--            Snow Queen 2023 will be held the weekend of November 11th and 12th at the Eisemann Bank of America Theatre in Richardson. We have openings for dancers ages 3 - 18. If you are interested in auditioning, join us August 5th or August 12th at 1:00pm.  Please call or email the studio for additional information.--}}
             {{--            Rehearsals begin Friday August 18th.--}}
