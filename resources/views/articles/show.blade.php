@@ -29,7 +29,7 @@
 <style>
     h1, h2, h3 {
         background: #E11B22;
-        color: white;
+        color: white !important;
         padding: 5px;
         border-radius: 5px;
         box-shadow: 2px 2px 3px rgba(0,0,0,0.6),
