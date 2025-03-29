@@ -123,9 +123,12 @@ class ArticleController extends Controller
     {
         if (request()->has('newsImage'))
         {
-            $article->update([
-                'newsImage' => request()->newsImage->store('uploads', 'public')
-            ]);
+//            $article->update([
+//                'newsImage' => request()->newsImage->store('uploads', 'public')
+//            ]);
+            $path = request()->newsImage->store('uploads', 'public');
+            \Log::info("Uploaded file path: " . $path);
+            $article->update(['newsImage' => $path]);
         }
         if (request()->has('articleImage'))
         {
