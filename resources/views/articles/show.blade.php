@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Article | Misty\'s Dance Unlimited')
+@section('title', 'Article | Studio 3 Dance Plano TX')
 @section('content')
 
 

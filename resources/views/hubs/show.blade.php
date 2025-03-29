@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Spring Recital Hub | Misty\'s Dance Unlimited')
+@section('title', 'Spring Recital Hub | Studio 3 Dance Plano TX')
 @section('content')
 
     <x-banner banner="banner-recital-24.jpg" alt="hip hop girls dance together" position="50% 20%" heading="{{ $hub->hubTitle }}"/>
