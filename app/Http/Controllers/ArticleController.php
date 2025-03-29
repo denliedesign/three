@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Article;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\Log;
 
 class ArticleController extends Controller
 {
@@ -127,7 +128,7 @@ class ArticleController extends Controller
 //                'newsImage' => request()->newsImage->store('uploads', 'public')
 //            ]);
             $path = request()->newsImage->store('uploads', 'public');
-            \Log::info("Uploaded file path: " . $path);
+            Log::info("Uploaded file path: " . $path);
             $article->update(['newsImage' => $path]);
         }
         if (request()->has('articleImage'))
