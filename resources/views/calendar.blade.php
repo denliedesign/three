@@ -6,7 +6,7 @@
     <x-banner banner="banner-calendar-2.jpg" alt="girls stretching front split at barre" position="50% 20%" heading="Calendar" />
 
     <div class="container mt-5 mont">
-        <img src="/images/prev/calendar-24-25.jpg" alt="calendar" class="img-fluid">
+        <img src="/images/25-26-calendar.jpg" alt="calendar" class="img-fluid">
     </div>
 
 @endsection

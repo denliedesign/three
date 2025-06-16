@@ -12,9 +12,9 @@
         Resources
     </a>
     <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="/images/24-tuition.pdf" target="_blank">Tuition</a></li>
+        <li><a class="dropdown-item" href="/images/25-26-tuition.pdf" target="_blank">Tuition</a></li>
         <li><a class="dropdown-item" href="/attire">Attire</a></li>
-        <li><a class="dropdown-item" href="/images/policies-24-25.pdf" target="_blank">Policies</a></li>
+        <li><a class="dropdown-item" href="/images/25-26-policies.pdf" target="_blank">Policies</a></li>
     </ul>
 </li>
 <li class="nav-item mx-2 dropdown">

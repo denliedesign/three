@@ -23,8 +23,8 @@
         <x-button link="https://app.thestudiodirector.com/studio3dance/portal.sd?page=Login" button="Register Now" />
 
         <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 my-3">
-            <img src="/images/prev/classes-preschool-24-25.jpg" alt="class schedule" class="img-fluid">
-            <img src="/images/prev/classes-childrens-24-25.jpg" alt="class schedule" class="img-fluid">
+            <img src="/images/25-26-schedule-b.jpg" alt="class schedule" class="img-fluid">
+            <img src="/images/25-26-schedule-c.jpg" alt="class schedule" class="img-fluid">
         </div>
 
         <div>
