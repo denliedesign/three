@@ -23,12 +23,12 @@
         <x-button link="https://app.thestudiodirector.com/studio3dance/portal.sd?page=Login" button="Register Now" />
 
         <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 my-3">
-            <img src="/images/25-26-schedule-b.jpg" alt="class schedule" class="img-fluid">
-            <img src="/images/25-26-schedule-c.jpg" alt="class schedule" class="img-fluid">
+            <img src="/images/fall-schedule-8-30-25-a.jpg" alt="class schedule" class="img-fluid">
+            <img src="/images/fall-schedule-8-30-25-b.jpg" alt="class schedule" class="img-fluid">
         </div>
 
         <div>
-            <img src="/images/prev/24-pathways.jpg" alt="path" class="img-fluid">
+            <img src="/images/pathways-8-30-25.png" alt="path" class="img-fluid">
         </div>
 
         {{--        <div class="d-flex justify-content-center">--}}
@@ -68,15 +68,15 @@
             {{--                    </p>--}}
             {{--                </div>--}}
             {{--            </div>--}}
-            <div class="d-flex align-items-center" style="border: 1px solid #747474;">
-                <div class="col text-center">
-                    <img src="/images/prev/ready-set-logos.png" alt="childrens class logo" class="img-fluid m-2">
-                    <small class="text-muted d-block">I for ages 2 1/2 - 4 & II for ages 5 - 6</small>
-                    <p>
+{{--            <div class="d-flex align-items-center" style="border: 1px solid #747474;">--}}
+{{--                <div class="col text-center">--}}
+{{--                    <img src="/images/prev/ready-set-logos.png" alt="childrens class logo" class="img-fluid m-2">--}}
+{{--                    <small class="text-muted d-block">I for ages 2 1/2 - 4 & II for ages 5 - 6</small>--}}
+{{--                    <p>--}}
 
-                    </p>
-                </div>
-            </div>
+{{--                    </p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
             <div class="d-flex align-items-center" style="border: 1px solid #747474;">
                 <div class="col text-center">
                     <img src="/images/prev/logo-ready-acro.png" alt="childrens class logo" class="img-fluid m-2">
@@ -86,15 +86,15 @@
                     </p>
                 </div>
             </div>
-            <div class="d-flex align-items-center" style="border: 1px solid #747474;">
-                <div class="col text-center">
-                    <img src="/images/prev/logo-ready-set-dance.png" alt="childrens class logo" class="img-fluid m-2">
-                    <small class="text-muted d-block">ages 3 - 5</small>
-                    <p>
-                        A combo class of Jazz, Hip Hop, Singing and Music and a whole lot of fun! This class is designed to give boys and girls confidence, coordination and creativity.
-                    </p>
-                </div>
-            </div>
+{{--            <div class="d-flex align-items-center" style="border: 1px solid #747474;">--}}
+{{--                <div class="col text-center">--}}
+{{--                    <img src="/images/prev/logo-ready-set-dance.png" alt="childrens class logo" class="img-fluid m-2">--}}
+{{--                    <small class="text-muted d-block">ages 3 - 5</small>--}}
+{{--                    <p>--}}
+{{--                        A combo class of Jazz, Hip Hop, Singing and Music and a whole lot of fun! This class is designed to give boys and girls confidence, coordination and creativity.--}}
+{{--                    </p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
             {{--            <div class="d-flex align-items-center" style="border: 1px solid #747474;">--}}
             {{--                <div class="col text-center">--}}
@@ -172,7 +172,7 @@
             <div class="d-flex align-items-center" style="border: 1px solid #747474;">
                 <div class="col text-center">
                     <img src="/images/prev/beginning-1.jpg" alt="childrens class logo" class="img-fluid m-2">
-                    <small class="text-muted d-block">ages 7 - 8</small>
+                    <small class="text-muted d-block">ages 6 - 8</small>
                     <p>
                         Introduces the young dancer to the steps and grace of ballet with barre, center work & combinations.
                     </p>
@@ -181,7 +181,7 @@
             <div class="d-flex align-items-center" style="border: 1px solid #747474;">
                 <div class="col text-center">
                     <img src="/images/prev/beginning-2.png" alt="childrens class logo" class="img-fluid m-2">
-                    <small class="text-muted d-block">ages 7 - 8</small>
+                    <small class="text-muted d-block">ages 6 - 8</small>
                     <p>
                         Introduces young dancers to the fun and rhythm of tap.
                         <br>Co-enrollment with ballet recommended.
@@ -191,7 +191,7 @@
             <div class="d-flex align-items-center" style="border: 1px solid #747474;">
                 <div class="col text-center">
                     <img src="/images/prev/beginning-3.jpg" alt="childrens class logo" class="img-fluid m-2">
-                    <small class="text-muted d-block">ages 7 - 8</small>
+                    <small class="text-muted d-block">ages 6 - 8</small>
                     <p>
                         Introduces the young dancer to jazz technique.
                         <br>Co-enrollment with ballet recommended.

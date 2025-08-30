@@ -12,12 +12,12 @@
         <x-button link="https://app.thestudiodirector.com/studio3dance/portal.sd?page=Login" button="Register Now"/>
 
         <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 my-3">
-            <img src="/images/25-26-schedule-d.jpg" alt="class schedule" class="img-fluid">
-            <img src="/images/25-26-schedule-e.jpg" alt="class schedule" class="img-fluid">
+            <img src="/images/fall-schedule-8-30-25-c.jpg" alt="class schedule" class="img-fluid">
+            <img src="/images/fall-schedule-8-30-25-d.jpg" alt="class schedule" class="img-fluid">
         </div>
 
         <div>
-            <img src="/images/prev/24-pathways.jpg" alt="path" class="img-fluid">
+            <img src="/images/pathways-8-30-25.png" alt="path" class="img-fluid">
         </div>
 
 
