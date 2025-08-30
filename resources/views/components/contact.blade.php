@@ -43,25 +43,35 @@
 <script>
     (function () {
         const form = document.getElementById('contact-form');
-        const submitBtn = document.getElementById('contact-submit');
+        const btn  = document.getElementById('contact-submit');
 
-        function disableBtn() { if (submitBtn) submitBtn.disabled = true; }
-        function enableBtn()  { if (submitBtn) submitBtn.disabled = false; }
+        function disable() { if (btn) btn.disabled = true; }
+        function enable()  { if (btn) btn.disabled = false; }
 
-        grecaptcha.ready(() => {
-            form.addEventListener('submit', async function (e) {
-                e.preventDefault();
-                disableBtn();
-                try {
-                    const token = await grecaptcha.execute('{{ config('services.recaptcha.site_key') }}', { action: 'contact_form' });
-                    document.getElementById('g-recaptcha-response').value = token;
-                    // Programmatic submit bypasses the event handler, so no infinite loop.
-                    form.submit();
-                } catch (err) {
-                    enableBtn();
-                    alert('Could not verify you are human. Please reload the page and try again.');
-                }
-            }, { passive: false });
-        });
+        function wireUp() {
+            grecaptcha.ready(function () {
+                form.addEventListener('submit', async function (e) {
+                    e.preventDefault();
+                    disable();
+                    try {
+                        const token = await grecaptcha.execute('{{ config('services.recaptcha.site_key') }}', { action: 'contact_form' });
+                        document.getElementById('g-recaptcha-response').value = token;
+                        form.submit(); // programmatic submit (no loop)
+                    } catch (err) {
+                        enable();
+                        alert('Verification failed. Please reload and try again.');
+                    }
+                }, { passive: false });
+            });
+        }
+
+        // Wait until grecaptcha is available to avoid "grecaptcha is not defined"
+        (function waitForRecaptcha() {
+            if (window.grecaptcha && typeof grecaptcha.ready === 'function') {
+                wireUp();
+            } else {
+                setTimeout(waitForRecaptcha, 50);
+            }
+        })();
     })();
 </script>
