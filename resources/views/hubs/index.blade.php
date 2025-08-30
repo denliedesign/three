@@ -11,6 +11,13 @@
         @endcan
 
         <div>
+            <div class="text-center">
+                <strong>May 28th, 29th, 30th</strong>
+                <br>Charles W. Eisemann Center for Performing Arts
+                <br>2351 Performance Dr, Richardson, TX 75082
+                <br><br>
+                <strong><em>Individual class recital day assignments will be announced in March 2026.</em></strong>
+            </div>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 pb-5">
                 @foreach($hubs as $hub)
                     <div class="col-sm p-2">

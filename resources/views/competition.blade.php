@@ -11,7 +11,7 @@
                     <div class="col-sm-7 px-3 d-flex align-items-center">
                         <div>
                             <div style="font-size: 1.5em;" class="fw-bold pb-0 mb-0">S3D Performance Teams</div>
-                            <div class="text-muted mb-3" style="font-size: 0.9em;">Company team fee due August 1</div>
+{{--                            <div class="text-muted mb-3" style="font-size: 0.9em;">Company team fee due August 1</div>--}}
                             <div>
                                 If you love to perform, consider joining one of our performance teams.  It’s a great fit for focused dancers looking for an additional challenge and performance opportunities. Dance Intensive Required for ALL company
                             </div>
