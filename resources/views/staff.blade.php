@@ -31,6 +31,7 @@ Ashleigh moved to Texas in 2015. She lives in Arlington with her husband, Brian,
 {{--<br><br>--}}
 {{--Danyelle has taught at Studio 3 since 2018. She is currently certified in Alixa Flexibility Modules 1 & 2. When she’s not living and breathing dance, she spends her time with husband (Jim), son (Timothy), daughter (Stevie) and dog (Nellie)." />--}}
             <x-teacher image="staff/staff-samantha.jpg" tag="samantha" name="Samantha Hebert" bio="Samantha was born and raised in Plano, TX where she danced at Studio 3 from 2003 to 2020. During her high school years, Samantha served as Captain of the Shepton Stallionettes, as well as Junior Lieutenant and Captain of the Plano West Royales. After graduating from Plano West, Samantha spent the next two years dancing as a Kilgore College Rangerette. Samantha has continued working on her education at the University of Oklahoma and Texas Women’s University. Samantha is so excited to be back at Studio 3 but now as a staff member!" />
+            <x-teacher image="staff/staff-tristyn.jpg" tag="tristyn" name="Tristyn Jowers" bio="Bio coming soon!" />
 {{--            <x-teacher image="" tag="" name="" bio="" />--}}
         </div>
 

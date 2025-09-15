@@ -142,37 +142,37 @@
             {{--                </div>--}}
             {{--            </div>--}}
 
-            <div class="d-flex align-items-center" style="border: 1px solid #747474;">
-                <div class="col text-center">
-                    <img src="/images/prev/petite-1.png" alt="childrens class logo" class="img-fluid m-2">
-                    <small class="text-muted d-block">ages 5 - 6</small>
-                    <p>
-                        Introduces the young dancer to the steps and grace of ballet with barre, center work & combinations.
-                    </p>
-                </div>
-            </div>
-            <div class="d-flex align-items-center" style="border: 1px solid #747474;">
-                <div class="col text-center">
-                    <img src="/images/prev/petite-2.png" alt="childrens class logo" class="img-fluid m-2">
-                    <small class="text-muted d-block">ages 5 - 6</small>
-                    <p>
-                        Introduces the young dancer to the fun and rhythm of tap.   Co-enrollment with ballet recommended.
-                    </p>
-                </div>
-            </div>
-            <div class="d-flex align-items-center" style="border: 1px solid #747474;">
-                <div class="col text-center">
-                    <img src="/images/prev/petite-3.png" alt="childrens class logo" class="img-fluid m-2">
-                    <small class="text-muted d-block">ages 5 - 6</small>
-                    <p>
-                        Introduces the young dancer to the basic steps of jazz. Co-enrollment with ballet recommended.
-                    </p>
-                </div>
-            </div>
+{{--            <div class="d-flex align-items-center" style="border: 1px solid #747474;">--}}
+{{--                <div class="col text-center">--}}
+{{--                    <img src="/images/prev/petite-1.png" alt="childrens class logo" class="img-fluid m-2">--}}
+{{--                    <small class="text-muted d-block">ages 5 - 6</small>--}}
+{{--                    <p>--}}
+{{--                        Introduces the young dancer to the steps and grace of ballet with barre, center work & combinations.--}}
+{{--                    </p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="d-flex align-items-center" style="border: 1px solid #747474;">--}}
+{{--                <div class="col text-center">--}}
+{{--                    <img src="/images/prev/petite-2.png" alt="childrens class logo" class="img-fluid m-2">--}}
+{{--                    <small class="text-muted d-block">ages 5 - 6</small>--}}
+{{--                    <p>--}}
+{{--                        Introduces the young dancer to the fun and rhythm of tap.   Co-enrollment with ballet recommended.--}}
+{{--                    </p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="d-flex align-items-center" style="border: 1px solid #747474;">--}}
+{{--                <div class="col text-center">--}}
+{{--                    <img src="/images/prev/petite-3.png" alt="childrens class logo" class="img-fluid m-2">--}}
+{{--                    <small class="text-muted d-block">ages 5 - 6</small>--}}
+{{--                    <p>--}}
+{{--                        Introduces the young dancer to the basic steps of jazz. Co-enrollment with ballet recommended.--}}
+{{--                    </p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
             <div class="d-flex align-items-center" style="border: 1px solid #747474;">
                 <div class="col text-center">
                     <img src="/images/prev/beginning-1.jpg" alt="childrens class logo" class="img-fluid m-2">
-                    <small class="text-muted d-block">ages 6 - 8</small>
+                    <small class="text-muted d-block">ages 5 1/2 - 7</small>
                     <p>
                         Introduces the young dancer to the steps and grace of ballet with barre, center work & combinations.
                     </p>
@@ -181,7 +181,7 @@
             <div class="d-flex align-items-center" style="border: 1px solid #747474;">
                 <div class="col text-center">
                     <img src="/images/prev/beginning-2.png" alt="childrens class logo" class="img-fluid m-2">
-                    <small class="text-muted d-block">ages 6 - 8</small>
+                    <small class="text-muted d-block">ages 5 1/2 - 7</small>
                     <p>
                         Introduces young dancers to the fun and rhythm of tap.
                         <br>Co-enrollment with ballet recommended.
@@ -191,7 +191,7 @@
             <div class="d-flex align-items-center" style="border: 1px solid #747474;">
                 <div class="col text-center">
                     <img src="/images/prev/beginning-3.jpg" alt="childrens class logo" class="img-fluid m-2">
-                    <small class="text-muted d-block">ages 6 - 8</small>
+                    <small class="text-muted d-block">ages 5 1/2 - 7</small>
                     <p>
                         Introduces the young dancer to jazz technique.
                         <br>Co-enrollment with ballet recommended.
