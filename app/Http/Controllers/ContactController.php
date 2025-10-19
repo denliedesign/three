@@ -71,7 +71,7 @@ class ContactController extends Controller
 
         // Send the mail (consider ->queue(...) + a ShouldQueue mailable)
         //        Mail::to(config('mail.to.address', 'studiothree.dance@gmail.com'))
-        Mail::to(config('mail.to.address', 'customdenlie@gmail.com'))
+        Mail::to(config('mail.to.address', 'studiothree.dance@gmail.com'))
             ->send(new ContactMail([
                 'name'    => $validated['name'],
                 'email'   => $validated['email'],
