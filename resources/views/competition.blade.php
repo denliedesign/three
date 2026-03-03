@@ -2,7 +2,7 @@
 @section('title', 'Performance & Competition Teams | Studio 3 Dance Plano TX')
 @section('description', 'If you love to perform, take on a challenge, and be a part of a team, then our Performance & Competition Teams are for you!')
 @section('content')
-    <x-banner banner="25-comp-team.jpg" alt="" position="50% 54%" heading="Performance & Competition Teams"/>
+    <x-banner banner="26-teams.jpg" alt="" position="50% 52%" heading="Performance & Competition Teams"/>
 
     <div class="container mt-5 mont">
         <section>

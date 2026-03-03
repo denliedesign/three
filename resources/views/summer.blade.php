@@ -11,9 +11,10 @@
             </div>
 
             <x-button link="https://app.thestudiodirector.com/studio3dance/portal.sd?page=Login" button="Register Now"/>
-            <img src="/images/25-summer-camps-workshops.jpg" alt="summer camp info" class="img-fluid mt-5">
-            <img src="/images/25-summer-classes-1.jpg" alt="summer dance class info" class="img-fluid">
-            <img src="/images/25-summer-classes-2.jpg" alt="summer dance class info" class="img-fluid">
+            <img src="/images/26-summer-graphic.png" alt="summer dance class info" class="img-fluid">
+            <img src="/images/26-summer.jpg" alt="summer dance class info" class="img-fluid">
+            <img src="/images/26-summer-2.jpg" alt="summer dance class info" class="img-fluid">
+
         </div>
     </div>
 
