@@ -33,6 +33,10 @@
                 &nbsp; &middot; &nbsp;<a style="text-decoration: none;" href="/ballet-plano"><small class="text-muted">Ballet Plano</small></a>
                 &nbsp; &middot; &nbsp;<a style="text-decoration: none;" href="/tumble-classes-plano"><small class="text-muted">Tumble Classes Plano</small></a>
             </div>
+            <div class="d-flex justify-content-center">
+                <a style="text-decoration: none;" href="/ballroom-dance-kids-plano"><small class="text-muted">Ballroom Dance for Kids in Plano</small></a>
+                &nbsp; &middot; &nbsp;
+            </div>
         </div>
 
     </div>

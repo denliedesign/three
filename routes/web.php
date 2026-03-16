@@ -94,6 +94,10 @@ Route::get('/tumble-classes-plano', function () {
     return view('/tumble-classes-plano');
 });
 
+Route::get('/ballroom-dance-kids-plano', function () {
+    return view('/ballroom-dance-kids-plano');
+});
+
 /* END SEO */
 
 require __DIR__.'/auth.php';
