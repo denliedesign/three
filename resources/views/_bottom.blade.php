@@ -42,6 +42,7 @@
                         <li><a class="dropdown-item" href="/dance-richardson">Dance Richardson</a></li>
                         <li><a class="dropdown-item" href="/dance-frisco">Dance Frisco</a></li>
                         <li><a class="dropdown-item" href="/allen-dance">Dance Allen</a></li>
+                        <li><a class="dropdown-item" href="/dance-mckinney">Dance McKinney</a></li>
                     </ul>
                 </li>
                 <li class="nav-item mx-2">

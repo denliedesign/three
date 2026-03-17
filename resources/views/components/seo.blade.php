@@ -65,4 +65,6 @@
         </div>
     </div>
 
+    @include('disclaimer')
+
 </div>

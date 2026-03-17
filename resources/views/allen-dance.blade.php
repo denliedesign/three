@@ -18,6 +18,7 @@
                 <br><br>
                 At Studio 3 Dance, we're not just teaching dance; we're nurturing leaders of tomorrow. Every step our students from Allen take in our studios translates into strides towards building a more cohesive community. Join us and experience how dance can transform lives, foster friendships, and strengthen the fabric of Allen.
             </p>
+            @include('disclaimer')
             <div class="d-flex justify-content-center">
                 <a class="mx-3" href="/preschool-dance-classes-plano">
                     <button class="btn btn-lg btn-danger shadow mb-4">See Our Children's Classes</button>

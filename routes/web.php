@@ -98,6 +98,14 @@ Route::get('/ballroom-dance-kids-plano', function () {
     return view('/ballroom-dance-kids-plano');
 });
 
+Route::get('/kpop-dance-classes-plano', function () {
+    return view('/kpop-dance-classes-plano');
+});
+
+Route::get('/dance-mckinney', function () {
+    return view('/dance-mckinney');
+});
+
 /* END SEO */
 
 require __DIR__.'/auth.php';

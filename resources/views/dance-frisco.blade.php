@@ -14,6 +14,8 @@
             <p>
                 Studio 3 Dance stands as a beacon for aspiring dancers in Frisco, TX, offering a comprehensive range of dance classes that cater to all skill levels and ages. Whether you're looking for ballet, hip-hop, contemporary, or jazz, our studio provides a vibrant, supportive environment where students can grow and excel. With experienced instructors and state-of-the-art facilities, Studio 3 Dance is committed to delivering top-notch dance education and experiences to the Frisco community. Our dance lessons are designed to nurture talent and passion, making us one of the top dance studios in Frisco. Join us and become part of a community that celebrates the art of dance in every move.
             </p>
+            @include('disclaimer')
+
             <div class="d-flex justify-content-center">
                 <a class="mx-3" href="/preschool-dance-classes-plano">
                     <button class="btn btn-lg btn-danger shadow mb-4">See Our Children's Classes</button>

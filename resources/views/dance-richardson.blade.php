@@ -7,7 +7,6 @@
 
     <x-banner banner="dance-studio-in-plano-tx.jpg" alt="trail in plano" position="center" heading="Fostering Unity and Growth Through Dance in Richardson"/>
 
-
     <div id="general-section" class="container my-5 mont">
 {{--        <h1 class="text-center mb-4 mt-0 py-0">Fostering Unity and Growth Through Dance in Richardson</h1>--}}
         <div>
@@ -18,6 +17,7 @@
                 <br><br>
                 Studio 3 Dance is committed to being a positive force in Richardson by offering a space where individuals can grow not only as dancers but as contributing members of society. Whether you’re a beginner or an experienced dancer, we invite you to join our community and see how dance can enrich your life and the lives of those around you.
             </p>
+            @include('disclaimer')
             <div class="d-flex justify-content-center">
                 <a class="mx-3" href="/preschool-dance-classes-plano">
                     <button class="btn btn-lg btn-danger shadow mb-4">See Our Children's Classes</button>

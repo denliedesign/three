@@ -16,4 +16,16 @@
             content3="Many families love ballroom because it combines dance training with social connection and confidence building. At Studio 3 Dance in Plano, our kids ballroom dance program helps children gain poise, stage presence, and coordination while making new friends in class. Through ballroom dance, kids learn valuable skills that extend beyond dance, including communication, cooperation, and self-confidence. Most importantly, classes are designed to be fun, engaging, and something dancers look forward to each week."
         />
 
+        {{--    <x-seo--}}
+        {{--        image1=".jpg"--}}
+        {{--        image2=".jpg"--}}
+        {{--        image3=".jpg"--}}
+        {{--        heading1=""--}}
+        {{--        heading2=""--}}
+        {{--        heading3=""--}}
+        {{--        content1=""--}}
+        {{--        content2=""--}}
+        {{--        content3=""--}}
+        {{--    />--}}
+
 @endsection

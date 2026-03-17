@@ -35,7 +35,8 @@
             </div>
             <div class="d-flex justify-content-center">
                 <a style="text-decoration: none;" href="/ballroom-dance-kids-plano"><small class="text-muted">Ballroom Dance for Kids in Plano</small></a>
-                &nbsp; &middot; &nbsp;
+                &nbsp; &middot; &nbsp;<a style="text-decoration: none;" href="/kpop-dance-classes-plano"><small class="text-muted">KPop Dance Classes Plano</small></a>
+
             </div>
         </div>
 
