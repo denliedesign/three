@@ -102,6 +102,10 @@ Route::get('/kpop-dance-classes-plano', function () {
     return view('/kpop-dance-classes-plano');
 });
 
+Route::get('/kpop-dancing-classes-mckinney', function () {
+    return view('/kpop-dancing-classes-mckinney');
+});
+
 Route::get('/dance-mckinney', function () {
     return view('/dance-mckinney');
 });

@@ -21,10 +21,10 @@
                     <button class="btn btn-lg btn-danger shadow mb-4">See Our Leveled Classes</button>
                 </a>
             </div>
-{{--            <div class="d-flex justify-content-center">--}}
-{{--                <a style="text-decoration: none;" href="/placeholder"><small class="text-muted">Placeholder</small></a>--}}
+            <div class="d-flex justify-content-center">
+                <a style="text-decoration: none;" href="/kpop-dancing-classes-mckinney"><small class="text-muted">Kpop Dancing Classes McKinney</small></a>
 {{--                &nbsp; &middot; &nbsp;<a style="text-decoration: none;" href="/placeholder"><small class="text-muted">Placeholder</small></a>--}}
-{{--            </div>--}}
+            </div>
         </div>
 
     </div>
