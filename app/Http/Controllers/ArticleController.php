@@ -18,13 +18,12 @@ class ArticleController extends Controller
 
     public function getArticles()
     {
-        $articles = Article::all(); // retrieves all articles from the database
-        return $articles;
+        return Article::orderBy('created_at', 'desc')->get();
     }
 
     public function __construct()
     {
-        $this->articles = Article::all()->sortByDesc('created_at');
+        $this->articles = Article::latest()->get();
         \View::share('articles', $this->articles);
     }
 
