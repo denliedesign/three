@@ -2,21 +2,22 @@
 
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\HubController;
+use App\Http\Controllers\PageController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () { return view('welcome'); });
 Route::get('staff', function () { return view('staff'); });
-Route::get('preschool-dance-classes-plano', function () { return view('preschool-dance-classes-plano'); });
-Route::get('classes', function () { return view('classes'); });
+Route::get('preschool-dance-classes-plano', [PageController::class, 'preschoolDanceClassesPlano'])->name('pages.preschool-dance-classes-plano');
+Route::get('classes', [PageController::class, 'classes'])->name('pages.classes');
 Route::get('attire', function () { return view('attire'); });
 Route::get('calendar', function () { return view('calendar'); });
 Route::get('snow-queen', function () { return view('snow-queen'); });
 Route::get('christmas-parade', function () { return view('christmas-parade'); });
 Route::get('competition', function () { return view('competition'); });
 Route::get('staff', function () { return view('staff'); });
-Route::get('summer', function () { return view('summer'); });
+Route::get('summer', [PageController::class, 'summer'])->name('pages.summer');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -26,6 +27,9 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::get('/pages/{page:slug}/edit', [PageController::class, 'edit'])->name('pages.edit');
+    Route::patch('/pages/{page:slug}', [PageController::class, 'update'])->name('pages.update');
+    Route::post('/pages/uploads', [PageController::class, 'upload'])->name('pages.uploads.store');
 });
 
 Route::post('contact', [ContactController::class, 'sendEmail'])->name('contact.send');

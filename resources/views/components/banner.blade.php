@@ -1,6 +1,12 @@
+@php
+    $bannerSrc = str_starts_with($banner, '/') || str_starts_with($banner, 'http')
+        ? $banner
+        : '/images/' . $banner;
+@endphp
+
 <section class="mb-5">
     <div>
-        <img src="/images/{{ $banner }}" alt="{{ $alt }}" class="img-fluid" style="height: 400px; width: 100%; object-fit: cover; object-position: {{ $position }};">
+        <img src="{{ $bannerSrc }}" alt="{{ $alt }}" class="img-fluid" style="height: 400px; width: 100%; object-fit: cover; object-position: {{ $position }};">
     </div>
 </section>
 <div class="mont">

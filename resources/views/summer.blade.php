@@ -1,19 +1,23 @@
 @extends('layouts.app')
-@section('title', 'Summer Dance Camps Workshops & Classes | Studio 3 Dance Plano TX')
-{{--@section('description', '')--}}
+@section('title', $page->title ?? 'Summer Dance Camps Workshops & Classes | Studio 3 Dance Plano TX')
+@section('description', $page->meta_description ?? 'Plano Dance classes taught by skilled teachers who take pride in creating a learning experience that is positive and rewarding for dancers of all ages and ability levels.')
 @section('content')
-    <x-banner banner="summer-dance-plano.jpg" alt="" position="50% 35%" heading="Summer Dance in Plano"/>
+    <x-banner
+        :banner="$content['banner']['image'] ?? 'summer-dance-plano.jpg'"
+        :alt="$content['banner']['alt'] ?? ''"
+        :position="$content['banner']['position'] ?? '50% 35%'"
+        :heading="$content['banner']['heading'] ?? 'Summer Dance in Plano'"
+    />
 
     <div class="container mt-5 mont d-flex justify-content-center">
         <div>
-            <div>
-                Welcome to Studio 3 Dance’s ultimate summer dance experience! This June and July, young dancers can ignite their passion for movement with our all-inclusive programs—featuring dynamic summer dance camps, focused summer dance intensives, creative summer dance workshops, and engaging summer dance classes in Plano. Each option is designed to inspire creativity, build confidence, and nurture talent in a fun, supportive environment. Join us to make your summer truly unforgettable!
-            </div>
+            @can('update', \App\Models\Page::class)
+                <p class="text-center"><a href="{{ route('pages.edit', 'summer') }}">Edit Summer Page</a></p>
+            @endcan
 
-            <x-button link="https://app.thestudiodirector.com/studio3dance/portal.sd?page=Login" button="Register Now"/>
-            <img src="/images/26-summer-graphic.png" alt="summer dance class info" class="img-fluid">
-            <img src="/images/26-summer.jpg" alt="summer dance class info" class="img-fluid">
-            <img src="/images/26-summer-2.jpg" alt="summer dance class info" class="img-fluid">
+            @foreach(($content['sections'] ?? []) as $section)
+                @includeIf('pages.sections.' . ($section['type'] ?? ''), ['section' => $section])
+            @endforeach
 
         </div>
     </div>
