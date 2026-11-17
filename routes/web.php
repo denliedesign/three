@@ -35,6 +35,7 @@ Route::middleware('auth')->group(function () {
 Route::post('contact', [ContactController::class, 'sendEmail'])->name('contact.send');
 
 Route::resource('hubs', HubController::class);
+Route::patch('articles/{article}/move', [ArticleController::class, 'move'])->middleware('auth')->name('articles.move');
 Route::resource('articles', ArticleController::class);
 
 Route::get('recital', function () {

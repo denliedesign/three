@@ -1,6 +1,19 @@
+@if($article->source_id)
+    <input type="hidden" name="source_id" value="{{ $article->source_id }}">
+    <p class="alert alert-info">This is a copy. Update the title and content, then save to create your new newsletter.</p>
+@endif
+
 <div class="form-group mb-4">
     <label for="newsImage">News Image (what shows on the main news page)</label><br>
-    <input type="file" class="form-control-file" name="newsImage">
+    @if($article->newsImage)
+        <div class="my-2"><img src="{{ asset('/storage/' . $article->newsImage) }}" alt="Current image" style="max-width: 240px; max-height: 180px;"></div>
+        <div class="form-check my-2">
+            <input id="remove_newsImage" class="form-check-input" type="checkbox" name="remove_newsImage" value="1" @checked(old('remove_newsImage'))>
+            <label class="form-check-label" for="remove_newsImage">Remove current image</label>
+        </div>
+    @endif
+    <input id="newsImage" type="file" class="form-control-file" name="newsImage" accept="image/*">
+    <small class="d-block text-muted">Uploading a new image replaces the current image.</small>
     <div>{{ $errors->first('newsImage') }}</div>
 </div>
 
@@ -18,7 +31,15 @@
 
 <div class="form-group my-4">
     <label for="articleImage">Article Image</label><br>
-    <input type="file" class="form-control-file" name="articleImage">
+    @if($article->articleImage)
+        <div class="my-2"><img src="{{ asset('/storage/' . $article->articleImage) }}" alt="Current image" style="max-width: 240px; max-height: 180px;"></div>
+        <div class="form-check my-2">
+            <input id="remove_articleImage" class="form-check-input" type="checkbox" name="remove_articleImage" value="1" @checked(old('remove_articleImage'))>
+            <label class="form-check-label" for="remove_articleImage">Remove current image</label>
+        </div>
+    @endif
+    <input id="articleImage" type="file" class="form-control-file" name="articleImage" accept="image/*">
+    <small class="d-block text-muted">Uploading a new image replaces the current image.</small>
     <div>{{ $errors->first('articleImage') }}</div>
 </div>
 
